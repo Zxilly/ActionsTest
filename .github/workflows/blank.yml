@@ -19,6 +19,8 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: docker run -d -p 27001:27001 -p 27002:27002 -p 27003:27003 --name mongo -e "REPLICA_SET_NAME=rs0" zxilly/mongodb-rs
+      - name: Send Notification
+        uses: Zxilly/action-notify@v0.0.1
+        with:
+          user_id: Zxilly
+          content: Test GitHub Actions
