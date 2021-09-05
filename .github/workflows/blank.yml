@@ -21,7 +21,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Send Notification
-        uses: Zxilly/action-notify@b41786659dc3c39acc118cfea61e3de53b6fb6f6
+        uses: Zxilly/action-notify@1fed59afdd796627e3e379ec220412ed6691845b
         with:
           user_id: Zxilly
           content: Test GitHub Actions
