@@ -23,5 +23,5 @@ jobs:
       - name: Send Notification
         uses: Zxilly/action-notify@9e1b174496c3b0c06f74d1c22ab0427448d8ff0e
         with:
-          user_id: Zxilly
+          user_id: zxilly
           content: Test GitHub Actions
